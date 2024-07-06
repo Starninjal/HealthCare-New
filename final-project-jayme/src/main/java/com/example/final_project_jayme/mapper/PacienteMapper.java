@@ -2,7 +2,6 @@ package com.example.final_project_jayme.mapper;
 
 import com.example.final_project_jayme.dto.PacienteDTO;
 import com.example.final_project_jayme.entities.Paciente;
-import com.example.final_project_jayme.entities.Prontuario;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;

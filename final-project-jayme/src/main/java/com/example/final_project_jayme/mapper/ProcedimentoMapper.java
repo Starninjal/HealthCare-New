@@ -5,9 +5,7 @@ import java.util.List;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 
-import com.example.final_project_jayme.dto.PacienteDTO;
 import com.example.final_project_jayme.dto.ProcedimentoDTO;
-import com.example.final_project_jayme.entities.Paciente;
 import com.example.final_project_jayme.entities.Procedimento;
 
 import lombok.RequiredArgsConstructor;

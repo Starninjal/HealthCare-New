@@ -5,9 +5,7 @@ import java.util.List;
 import org.modelmapper.ModelMapper;
 
 import com.example.final_project_jayme.dto.FaturamentoDTO;
-import com.example.final_project_jayme.dto.PacienteDTO;
 import com.example.final_project_jayme.entities.Faturamento;
-import com.example.final_project_jayme.entities.Paciente;
 
 import lombok.RequiredArgsConstructor;
 
@@ -23,7 +21,7 @@ public class FaturamentoMapper {
         return modelMapper.map(faturamento, FaturamentoDTO.class);
     }
 
-        public List<FaturamentoDTO> toPacienteDTOList(List<Faturamento> faturamentos) {
+        public List<FaturamentoDTO> toFaturamentoDTOList(List<Faturamento> faturamentos) {
         return faturamentos.stream().map(f -> modelMapper.map(f, FaturamentoDTO.class)).toList();
     }
 }
